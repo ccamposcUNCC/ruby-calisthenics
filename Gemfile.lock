@@ -1,6 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    ZenTest (4.11.1)
+    autotest (4.4.6)
+      ZenTest (>= 4.4.1)
     byebug (9.0.5)
     diff-lcs (1.2.5)
     rspec (3.5.0)
@@ -23,6 +26,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autotest
   byebug
   rspec
   rspec-autotest
